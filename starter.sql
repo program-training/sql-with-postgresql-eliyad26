@@ -1,0 +1,22 @@
+--1HELLO TEDDY IT'S ELIYA DUEK FROM THE PAST, HOW ARE YOU FEELING? GOOD! I DID QUESTION ONE BUT THEN ERASED IT AND I COULDN'T MAKE MYSELF DO IT AGAIN PLEASE HAVE MERCY; HAVE A GOOD REST OF YOUR DAY.
+--2-- SELECT Customer_ID from Customer where Country = 'Germany';
+--3-- SELECT Orders from Orders where Customer_ID like 'ALFKI';
+-- SELECT COUNT(Customer_ID) as TotalOrders,Customer_id FROM Orders GROUP BY Customer_ID;
+-- select prouct_ID , Unit_Price from Products ORDER BY Unit_Price DESC LIMIT 5 
+-- SELECT * from Employees WHERE EXTRACT (YEAR FROM Birth_Date)>1960;
+-- SELECT * FROM Products where Units_In_Stock <1;
+-- SELECT AVG(Unit_Price) from products;multiplr
+-- SELECT SUM(Unit_Price * Quantity) from Order_Details where Product_ID = '5';
+-- SELECT COUNT(Category_ID) from Categories;
+-- SELECT * FROM Products where (Discontinued = 1);
+-- SELECT COUNT(Order_ID) from Orders WHERE EXTRACT(YEAR FROM Order_Date)>=1997;
+-- SELECT Contact_Title FROM Customers WHERE Contact_Title IN ('Owner', 'CEO');
+-- SELECT MAX(Unit_Price)  FROM Products;
+-- SELECT AVG( EXTRACT (YEAR FROM Birth_Date)) from Employees;
+-- SELECT Phone FROM Customers WHERE  Phone  LIKE '%123%';
+-- SELECT * FROM Products WHERE Units_In_Stock < 10 AND Discontinued <> 1;
+-- SELECT MAX(Unit_Price) AS HighestPrice,MIN(Unit_Price) AS LowestPrice  FROM products;
+-- SELECT * FROM Orders where Order_Date ='05-05-1997';
+-- SELECT Product_Name,Quantity_Per_Unit FROM Products;
+-- SELECT * FROM Products WHERE Unit_Price >(SELECT AVG(Unit_Price)FROM Products);
+-- SELECT COUNT(Employee_ID), City FROM Employees GROUP BY City;
